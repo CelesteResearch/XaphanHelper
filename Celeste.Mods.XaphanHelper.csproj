@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <AssemblyName>Celeste.Mods.XaphanHelper</AssemblyName>
+        <RootNamespace>Celeste.Mods.XaphanHelper</RootNamespace>
+    </PropertyGroup>
+    <ItemGroup>
+        <ProjectReference
+            Include="$(SharedRoot)/src/Celeste.Game.Runtime/Celeste.Game.Runtime.csproj"
+            Private="false"
+        />
+        <PackageReference Include="MonoMod.RuntimeDetour" Version="25.3.6" />
+        <PackageReference Include="MonoMod.ILHelpers" Version="1.1.0" Aliases="MonoModILHelpers" />
+    </ItemGroup>
+</Project>
